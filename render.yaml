@@ -1,7 +1,11 @@
-databases:
-  - name: postgres
-    ipAllowList: []
+# databases:
+#   - name: postgres
+#     ipAllowList: []
 
+databases:
+  - name: mysite
+    databaseName: mysite
+    user: mysite
 
 services:
   - type: web
@@ -24,28 +28,6 @@ services:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# databases:
-#   - name: mysite
-#     databaseName: mysite
-#     user: mysite
 
 # services:
 #   - type: web
