@@ -1,11 +1,11 @@
-# databases:
-#   - name: postgres
-#     ipAllowList: []
-
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: postgres
+    ipAllowList: []
+
+# databases:
+#   - name: mysite
+#     databaseName: mysite
+#     user: mysite
 
 services:
   - type: web
